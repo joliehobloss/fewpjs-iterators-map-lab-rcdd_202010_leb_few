@@ -17,12 +17,12 @@ const titleCased = () => {
 
 
 function ff() {
-  let a="";
-   a=tutorials.map((element)=>{ element.split(' ');
-   let b = a.map((index)=>{
-     return index.charAt(0).toUpperCase() + index.slice(1);
-   }).join(" ")
-    return b;
+  return tutorials.map((element)=>{
+   let arrWord = element.split(' ');
+   let capitalized = arrWord.map((word)=>{
+     return word.charAt(0).toUpperCase() + word.slice(1);
+   })
+    return capitalized.join(" ")
   })
 }
 
