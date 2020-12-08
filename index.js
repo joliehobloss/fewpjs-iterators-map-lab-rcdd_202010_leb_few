@@ -18,11 +18,10 @@ const titleCased = () => {
 
 function ff() {
   return tutorials.map((element)=>{
-   let arrWord = element.split(' ');
-   let capitalized = arrWord.map((word)=>{
+   let a = element.split(' ').map((word)=>{
      return word.charAt(0).toUpperCase() + word.slice(1);
    })
-    return capitalized.join(" ")
+    return a.join(" ")
   })
 }
 
