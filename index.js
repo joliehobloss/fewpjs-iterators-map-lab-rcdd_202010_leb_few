@@ -16,7 +16,10 @@ const titleCased = () => {
 }
 
 
-
+function title(array){
+  return array.map(element=>element)
+  
+}
 
 
 describe('index.js', function () {
