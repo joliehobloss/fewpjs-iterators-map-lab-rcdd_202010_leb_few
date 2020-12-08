@@ -18,12 +18,11 @@ const titleCased = () => {
 
 function ff() {
   return tutorials.map((element)=>{
-   let a = element.split(' ').map((index)=>{
+     element.split(' ').map((index)=>{
      return index.charAt(0).toUpperCase() + index.slice(1);
    }).join(" ");
-    
   })
-  return a;
+  
 }
 
 
