@@ -21,7 +21,7 @@ function title(array){
   let b="";
    a=array.map(element=>element.split(" "));
    b.map((index)=>{
-   return index.charAt(0)+index.slice(1)
+   return index.charAt(0).toUpperCase() + index.slice(1);
    });
 }
 
