@@ -16,14 +16,16 @@ const titleCased = () => {
 }
 
 
-function title(array){
+const titleCased = () => {
   let a="";
   let b="";
-   a=array.map(element=>element.split(" "));
-   b=a.map((index)=>{
-     index.charAt(0);
-   }).join(' ');
-   return b;
+   return a=tutorials.map((element)=>{
+element.split(' ');
+   b = a.map((index)=>{
+     return index.charAt(0).toUpperCase() + index.slice(1);
+   })
+    return b.join(" ")
+  })
 }
 
 
