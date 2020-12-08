@@ -17,7 +17,7 @@ const titleCased = () => {
 
 
 function title(array){
-  return array.map(element=>element)
+  return let a=array.map(element=>element.split(" "));
   
 }
 
