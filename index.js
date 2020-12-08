@@ -20,7 +20,7 @@ function title(array){
   let a="";
   let b="";
    a=array.map(element=>element.split(" "));
-   b.map((index)=>{
+   b=a.map((index)=>{
    return index.charAt(0).toUpperCase() + index.slice(1);
    }).join(' ');
    return b;
