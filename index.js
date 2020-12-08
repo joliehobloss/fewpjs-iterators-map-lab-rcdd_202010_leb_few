@@ -22,7 +22,7 @@ function ff() {
      return index.charAt(0).toUpperCase() + index.slice(1);
    }).join(" ");
   })
-  
+  return tutorials;
 }
 
 
