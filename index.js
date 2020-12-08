@@ -22,7 +22,8 @@ function title(array){
    a=array.map(element=>element.split(" "));
    b.map((index)=>{
    return index.charAt(0).toUpperCase() + index.slice(1);
-   });
+   }).join(' ');
+   return b;
 }
 
 
