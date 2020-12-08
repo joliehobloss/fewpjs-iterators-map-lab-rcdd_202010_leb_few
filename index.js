@@ -16,16 +16,7 @@ const titleCased = () => {
 }
 
 
-function titleCase(array) {
-  let a=array.map(element=>element.split(' '));
-  let b=a.map(element=>console.log(element[0]))
- /* return str.toLowerCase().split(' ').map(function(word) {
-    return (word.charAt(0).toUpperCase() + word.slice(1));
-  }).join(' ');*/
- return b; 
-}
 
-titleCase("I'm a little tea pot");
 
 
 describe('index.js', function () {
