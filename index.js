@@ -18,7 +18,7 @@ const titleCased = () => {
 
 function titleCase(array) {
   let a=array.map(element=>element.split(' '));
-  let b=a.map(element=>console.log(element.charAt(0).toUpperCase() + element.slice(1)))
+  let b=a.map(element=>console.log(element[0].charAt(0).toUpperCase() + element.slice(1)))
  /* return str.toLowerCase().split(' ').map(function(word) {
     return (word.charAt(0).toUpperCase() + word.slice(1));
   }).join(' ');*/
